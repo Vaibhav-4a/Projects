@@ -51,7 +51,7 @@ body{
     font-size: 2em;
 }
 
-.container button{
+#submit{
     margin-top: 2em;
     height:8vh;
     width: 17vw;
@@ -61,4 +61,19 @@ body{
     font-size: 1.25em;
     color: white;
     cursor: pointer;
+}
+
+.input{
+    background-color: white;
+    width: 43vw;
+    border-radius: 6px;
+}
+
+.input img{
+    height: 2em;
+}
+#copy{
+    cursor: pointer;
+    background-color: white;
+    border: none;
 }

@@ -18,3 +18,8 @@ function randomPassword(){
     }
     passwordBox.value = password;
 }
+
+function copy(){
+    passwordBox.select();
+    document.execCommand("copy");
+}

@@ -48,6 +48,7 @@ body{
     padding: 10px;
     font-size: 1em;
     margin-right: 1em;
+    cursor: pointer;
 }
 
 .box button{
@@ -57,8 +58,15 @@ body{
     border: none;
     outline: none;
     background-color: yellow;
+    cursor: pointer;
 }
 
 .container p{
     font-size: 1.25em;
+}
+
+.box button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s;
 }
