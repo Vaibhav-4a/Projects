@@ -40,6 +40,7 @@
     width: 18vw;
     border-radius: 5px;
     border: black 1px solid;
+    padding: 10px;
 }
 
 .form .content .password input{
@@ -48,6 +49,7 @@
     width: 18vw;
     border-radius: 5px;
     border: black 1px solid;
+    padding: 10px;
 }
 
 .form .content .login button{
@@ -111,5 +113,18 @@
     .container{
         flex-direction: column;
         text-align: center;
+    }
+    .form{
+        width: 50vw;
+    }
+    .form .content .email input{
+        width: 30vw;
+    }
+    .form .content .password input{
+        width: 30vw;
+    }
+    .form .content .create button{
+        width: 20vw;
+        height:6vh;
     }
 }
