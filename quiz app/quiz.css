@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #001e4d;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001e4d;
+    height: 85vh;
+    width: 100vw;
+}
+.box{
+    min-width: 40vw;
+    background-color: white;
+    border-radius: 1.5em;
+}
+
+.box h2{
+    padding: 1.0em 0.75em 0.75em 0.75em;
+
+}
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#body .btn{
+    height: 3em;
+    width: 40em;
+    margin: 0.25em 1em 1.5em 1em;
+    cursor: pointer;
+    text-align: left;
+    padding: 0 0 0 1em;
+    border: 0.5px solid black;
+    border-radius: 4px;
+}
+
+.box p{
+    margin: 1em 1em 1em 1em;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+#body .btn:hover:not([disabled]){
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+#body .btn:disabled{
+    cursor: no-drop;
+}
+
+ #next-btn{
+    height: 2.75em;
+    width: 7em;
+    /* margin-bottom: 1em; */
+    /* margin-top: 1em; */
+    border-radius: 4px;
+    border: 0.5px solid black;
+    cursor: pointer;
+    display: none;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+
+#next-btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.25s;
+}
+
+.correct{
+    background-color: #9aeabc;
+}
+
+.incorrect{
+    background-color: #ff9393;
+}

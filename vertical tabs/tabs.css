@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #dad3f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box{
+    height: 375px;
+    width: 900px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.box .heading h2{
+    padding-left:25px ;
+    padding-top: 30px;
+}
+.box .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .content ul{
+    padding: 40px;
+    padding-top: 25px;
+    list-style: none;
+}
+
+.box .content ul label{
+    padding: 15px 30px;
+    display: flex;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+.box .content ul label i{
+    padding-right: 10px;
+}
+.content .content-2 h2{
+    position: relative;
+    bottom: 25px;
+}
+.content .content-2 p{
+    position: relative;
+    top: -20px;
+    height: 22vh;
+    padding-top: 0px;
+}
+
+.box .content ul label:hover{
+    background-color: #6d50e2;
+    transition: 0.5s;
+    cursor: pointer;
+}
+input{
+    display: none;
+}
+.blog,.about,.help,.code{
+    display: none;
+}
+
+#home:checked~.text-area .home,
+#blog:checked~.text-area .blog,
+#help:checked~.text-area .help,
+#about:checked~.text-area .about,
+#code:checked~.text-area .code{
+    display: block;
+}
+
+#blog:checked~.text-area .home,
+#help:checked~.text-area .home,
+#about:checked~.text-area .home,
+#code:checked~.text-area .home{
+    display: none;
+}

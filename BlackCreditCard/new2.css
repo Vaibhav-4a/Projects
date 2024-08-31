@@ -1,0 +1,56 @@
+section{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    height: 260px;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+}
+
+.card .heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .heading .logo img{
+    width: 48px;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 1px 15px;
+}
+
+.details .number h5{
+    font-size: 20px;
+    margin: 10px 20px;
+}
+.details .number h6{
+    margin: 0px 20px;
+    margin-top: 50px;
+}
+
+.details .other{
+    display: flex;
+    justify-content: space-between;
+}
+
+.details .name h4{
+    margin: 30px 12px;
+}
+.details .other .date h6{
+    margin: 20px 12px;
+    margin-bottom: 10px;
+}
+.details .other .date h4{
+    margin: 0px;
+}

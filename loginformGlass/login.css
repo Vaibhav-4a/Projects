@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: url(img.jpg) left no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .login{
+    height: 65vh;
+    width: 30vw;
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    border: 0.1px solid black;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4vh 0 11vh 0;
+    font-size: 25px;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5vh 0 5vh 0;
+}
+.email,.password,.button,.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 30vw;
+    height: 65vh;
+}
+.email input,.password input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 1vh 0 6vh 0;
+    height: 30px;
+    width: 18vw;
+    outline: none;
+}
+
+.forgot{
+    margin-right: 2vw;
+    font-size: 18px;
+}
+.check{
+    margin-left: 2vw;
+    font-size: 18px;
+}
+
+.button button{
+    height: 35px;
+    width: 18vw;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.button {
+    margin: 0 0 2vh 0;
+}
+.button button:hover{
+    background: transparent;
+    cursor: pointer;
+    border: solid 1px black;
+}
+
+.email div label{
+    position: absolute;
+    top: 22vh;
+    right: 18vw;
+    transition: 0.2s ease;
+    /* top: 4vh; */
+}
+
+.password div label{
+    position: absolute;
+    top: 32.5vh;
+    right: 16.5vw;
+    transition: 0.2s ease;
+    pointer-events: none;
+    /* top: 4vh; */
+}
+
+.email div input:focus~label,
+.email div input:valid~label{
+    font-size: 0.8rem;
+    top: 19vh;
+    right: 20vw;
+    transition: 0.2s ease;
+    /* top: 2vh;
+    left: -2vw; */
+}
+
+.password div input:focus~label,
+.password div input:valid~label{
+    font-size: 0.8rem;
+    top: 29.5vh;
+    right: 18.5vw;
+    transition: 0.2s ease;
+}
+
+.options .check h5{
+    margin-left: 0.5vw;
+}
+
+.options .check input{
+    accent-color: #fff;
+}
+
+.options .forgot a{
+    text-decoration: none;
+    color: black;
+}
+
+.options .forgot a:hover{
+    text-decoration: underline;
+}
